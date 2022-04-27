@@ -1,0 +1,15 @@
+{{#if newName}}
+<h2> A person has been added to the database with the name of {{newName}} </h2>
+{{/if}}
+
+
+<ul>
+  {{#each personlist}}
+    <li><a href=/staff/{{this.name}}>
+      {{this.name}}</a></li>
+</li>
+  {{/each}}
+</ul>
+
+<a href="/staff/addnew" class="button3">AddNew</a>
+

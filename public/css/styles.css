@@ -1,0 +1,134 @@
+body 
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background :#4d2929;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import "compass";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img#Logo_Principal
+{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 150px;
+    height: 52px;
+}
+
+h1
+{
+    margin-bottom: 10px;
+    color: #fff ;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+h2
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+ul
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    left: 100px;
+}
+ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+img#photo
+{
+   position: relative;
+   left: 100px;
+}
+
+#legal
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+h1#email
+{
+    color: #fff;
+    font-size: 25px;
+}
+
+h2#Title
+{
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    display: table-cell;    
+    text-align:start;
+    position: relative;
+    top: 2.2rem;
+    left: 6%;
+}
+
+h2#message
+{
+  position: relative;
+  margin-bottom: 80px;
+}
+
+h2#SubTitle
+{
+    z-index: 0;
+    color: rgb(149, 149, 149);   
+    position: relative;
+    top: 5rem;
+    left: 4%;
+}
+#contact_name
+{
+  position: relative;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+
+h3
+{
+  color: white;
+}
+
+#email
+{
+    color: #fff;
+}
